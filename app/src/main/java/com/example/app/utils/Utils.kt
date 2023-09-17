@@ -1,10 +1,6 @@
 package com.example.app.utils
 
-import android.text.SpannableStringBuilder
-import android.text.Spanned
-import android.text.style.ForegroundColorSpan
 import java.math.BigDecimal
-import java.util.regex.Pattern
 
 /**
  * 步长约束方法，向上向下均可，这里展示向下的

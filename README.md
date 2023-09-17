@@ -2,6 +2,12 @@
 
 自定义小组件、实用代码集锦
 
+0. **Utils(实用技巧)**
+
+* 步长约束方法: `fun BigDecimal.step(step: BigDecimal)`
+* 安全地把String转BigDecimal: `fun String?.safeBigDecimal()`
+* 任意获取sublist，无需担心index溢出: `fun <T> List<T>.safeSubList(fromIndex: Int, toIndex: Int)`
+
 1. **输入过滤器**
 
 * 数字输入过滤器，可设置最大值、最小值、小数位数
