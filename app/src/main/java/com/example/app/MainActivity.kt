@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import com.example.app.chart.ChartActivity
 import com.example.app.filter.InputFilterActivity
 
 class MainActivity : Activity() {
@@ -14,6 +15,11 @@ class MainActivity : Activity() {
         //输入过滤器
         findViewById<Button>(R.id.input_filter).setOnClickListener {
             startActivity(Intent(this, InputFilterActivity::class.java))
+        }
+
+        //图表
+        findViewById<Button>(R.id.chart).setOnClickListener {
+            startActivity(Intent(this, ChartActivity::class.java))
         }
     }
 }
