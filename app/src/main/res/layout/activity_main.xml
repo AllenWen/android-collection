@@ -17,4 +17,10 @@
         android:layout_height="wrap_content"
         android:text="常见图表" />
 
+    <Button
+        android:id="@+id/suffix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带后缀文本" />
+
 </LinearLayout>

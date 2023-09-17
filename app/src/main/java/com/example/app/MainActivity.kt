@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.app.chart.ChartActivity
 import com.example.app.filter.InputFilterActivity
+import com.example.app.suffix.SuffixActivity
 
 class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +21,11 @@ class MainActivity : Activity() {
         //图表
         findViewById<Button>(R.id.chart).setOnClickListener {
             startActivity(Intent(this, ChartActivity::class.java))
+        }
+
+        //带后缀文本
+        findViewById<Button>(R.id.suffix).setOnClickListener {
+            startActivity(Intent(this, SuffixActivity::class.java))
         }
     }
 }

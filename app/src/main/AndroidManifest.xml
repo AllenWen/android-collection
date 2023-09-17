@@ -25,6 +25,7 @@
         </activity>
         <activity android:name=".filter.InputFilterActivity" />
         <activity android:name=".chart.ChartActivity" />
+        <activity android:name=".suffix.SuffixActivity" />
     </application>
 
 </manifest>
