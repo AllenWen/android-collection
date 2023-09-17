@@ -16,3 +16,8 @@
 
 * 文本默认带可点击的后缀文字，可控制是否一直显示后缀
 * <img src="/img/Screenshot_suffix_text_view.png" width="35%" height="35%"/>
+
+4. **局部变暗的弹窗**
+
+* 可以局部变暗的弹窗，上下左右均可
+* <img src="/img/Screenshot_popup.png" width="35%" height="35%"/>

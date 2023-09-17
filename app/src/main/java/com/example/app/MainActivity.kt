@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.app.chart.ChartActivity
 import com.example.app.filter.InputFilterActivity
+import com.example.app.popup.PopupWindowActivity
 import com.example.app.suffix.SuffixActivity
 
 class MainActivity : Activity() {
@@ -26,6 +27,11 @@ class MainActivity : Activity() {
         //带后缀文本
         findViewById<Button>(R.id.suffix).setOnClickListener {
             startActivity(Intent(this, SuffixActivity::class.java))
+        }
+
+        //带后缀文本
+        findViewById<Button>(R.id.popup).setOnClickListener {
+            startActivity(Intent(this, PopupWindowActivity::class.java))
         }
     }
 }
