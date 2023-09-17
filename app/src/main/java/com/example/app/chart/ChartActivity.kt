@@ -29,5 +29,20 @@ class ChartActivity : Activity() {
             )
         }, 200)
 
+        //饼图
+        handler.postDelayed({
+            findViewById<PieChartView>(R.id.pieChartView).setPieData(
+                arrayListOf(
+                    Triple(android.R.color.holo_blue_bright, "", 0.1),
+                    Triple(android.R.color.holo_orange_light, "", 0.5),
+                    Triple(android.R.color.holo_red_light, "", 0.4)
+                )
+            )
+        }, 200)
+
+        //仪表盘
+        handler.postDelayed({
+            findViewById<DashBoardView>(R.id.dashBoardView).setPercent(0.5)
+        }, 500)
     }
 }
