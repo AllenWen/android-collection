@@ -5,7 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import com.example.app.chart.ChartActivity
-import com.example.app.filter.InputFilterActivity
+import com.example.app.inputFilter.InputFilterActivity
 import com.example.app.popup.PopupWindowActivity
 import com.example.app.suffix.SuffixActivity
 

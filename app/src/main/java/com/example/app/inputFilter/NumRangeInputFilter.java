@@ -1,4 +1,4 @@
-package com.example.app.filter;
+package com.example.app.inputFilter;
 
 import android.text.InputFilter;
 import android.text.Spanned;
