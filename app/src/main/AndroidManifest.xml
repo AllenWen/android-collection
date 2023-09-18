@@ -26,7 +26,8 @@
         <activity android:name=".inputFilter.InputFilterActivity" />
         <activity android:name=".chart.ChartActivity" />
         <activity android:name=".suffix.SuffixActivity" />
-        <activity android:name=".popup.PopupWindowActivity"/>
+        <activity android:name=".popup.PopupWindowActivity" />
+        <activity android:name=".indexBar.IndexBarActivity" />
     </application>
 
 </manifest>

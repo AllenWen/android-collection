@@ -35,4 +35,4 @@
 
 5. **侧边索引条**
 * 侧边指示快速定位到某个模块
-* <img src="/img/Screenshot_popup.png" width="35%" height="35%"/>
+* <img src="/img/Screenshot_index_bar.png" width="35%" height="35%"/>
